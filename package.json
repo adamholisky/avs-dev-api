@@ -1,0 +1,22 @@
+{
+  "name": "avs-dev-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "avs-dev-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel avs-dev-api.js -d dist",
+    "start": "npm run build && node dist/avs-dev-api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "express": "^5.2.1",
+    "ws": "^8.20.0"
+  }
+}
